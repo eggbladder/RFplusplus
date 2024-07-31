@@ -1,0 +1,68 @@
+define range(number) 
+	i = 3
+	x = 1
+	c = 2
+	v = 3
+	b = number
+	if (0)
+		print "hi!"
+	end
+	return {i,x,c,v,b}
+
+
+
+end
+
+
+
+
+num = 3
+num = num - 1
+valtoprint = range(num)
+
+for every i in valtoprint
+	print i
+end
+
+valtoprint = range(3)
+
+for every i in valtoprint
+	print i
+end
+
+valtoprint = "Print me! 32Print me!"
+
+if (1) 
+	print "if statement worked?"
+
+
+
+	if (1)
+		print "if statement worked?1"
+	end else if (1)
+
+		print "elseif!! booyah!!1"
+
+	end else if (0)
+		print "elseif!! booyah!!asd1"
+	end else if (0)
+		print "elseif!! booyah!!asadassd1"
+	end else
+		print "hi1"
+	end
+
+
+	print "if statement worked?"
+end else if (0)
+
+	print "elseif!! booyah!!"
+
+end else if (0)
+	print "elseif!! booyah!!asd"
+end else if (1)
+	print "elseif!! booyah!!asadassd"
+end else
+	print "hi"
+end
+
+print "we win!"
